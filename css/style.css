@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(yellow, black);
+    height: 100vh;
+   
+}
+
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo h2 {
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 30px;
+    color: #35424a;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.form-container h2 {
+    margin: 0 0 20px;
+}
+
+.form-container input, 
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.table-container {
+    margin: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, 
+.table-container td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-container th {
+    background: #35424a;
+    color: white;
+}
+
+.notification {
+    margin-left: 20px;
+}
+
+.profile {
+    margin-left: 20px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+select {
+    /* Ensure this is styled correctly */
+    color: black; /* Make sure text is visible */
+    background-color: white; /* Ensure the background is visible */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+option {
+    color: black; /* Ensure the option text is visible */
+    background-color: white; /* Background of options */
+}
+
